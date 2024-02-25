@@ -34,5 +34,7 @@ const galleryItems = images.map(image => `
   </li>
 `).join('');
 gallery.insertAdjacentHTML('beforeend', galleryItems);
-gallery.style.display = 'flex';
 gallery.style.justifyContent = 'center';
+gallery.style.flexWrap = 'wrap';
+
+
